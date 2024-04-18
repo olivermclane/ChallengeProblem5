@@ -1,3 +1,10 @@
+"""
+Author: Oliver McLane
+Date: 2024-04-17
+This file allows you to split csv data into multiple different csv called Team.csv and Institutions.csv, it uses a fuzzy-match
+based algorithm that matches together different universities together. You are prompted to either enter a csv path, test with the
+preset file or quit the CLI tool.
+"""
 import pandas as pd
 from fuzzywuzzy import process, fuzz
 
