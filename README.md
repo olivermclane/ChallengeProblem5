@@ -12,8 +12,6 @@ This Python script processes a CSV file containing institution and team data, ap
 Before running this script, ensure you have the following installed:
 
 - Python 3.x 
-- pandas library (Csv manipulator library)
-- fuzzywuzzy library (Used to fuzzy match strings to prevent duplicates in the database)
 
 ### Clone Repo
 ```bash
@@ -25,6 +23,9 @@ Next, you can install the required Python libraries using pip:
 ```bash
 pip install -r requirements.txt
 ```
+- pandas library (Csv manipulator library)
+- fuzzywuzzy library (Used to fuzzy match strings to prevent duplicates in the database)
+
 
 To use this script, your input CSV file must contain the following headers:
 - Institution
