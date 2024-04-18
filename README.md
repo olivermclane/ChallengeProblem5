@@ -15,7 +15,12 @@ Before running this script, ensure you have the following installed:
 - pandas library (Csv manipulator library)
 - fuzzywuzzy library (Used to fuzzy match strings to prevent duplicates in the database)
 
-You can install the required Python libraries using pip:
+### Clone Repo
+```bash
+git clone https://github.com/olivermclane/ChallengeProblem5
+```
+
+Next, you can install the required Python libraries using pip:
 
 ```bash
 pip install -r requirements.txt
